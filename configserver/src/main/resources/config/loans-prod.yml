@@ -1,0 +1,11 @@
+build: 
+  version: '1.0'
+
+loans: 
+  message: "Welcome to Bank Loans related Prod APIs Configserver"
+  contactDetails:
+    name: "Suresh Pokhrail - Prod Leads"
+    email: "pokhrailsuresh5@gmail.com"
+  contact: 
+      -7500065026
+      -7500065027

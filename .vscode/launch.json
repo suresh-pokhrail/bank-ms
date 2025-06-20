@@ -1,0 +1,85 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GetewayserverApplication",
+            "request": "launch",
+            "mainClass": "com.bank.getewayserver.GetewayserverApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaserverApplication<eurekaserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bank.eurekaserver.EurekaserverApplication",
+            "projectName": "eurekaserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53768 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=eurekaserver"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BankApplication<accounts>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bank.accounts.BankApplication",
+            "projectName": "accounts",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53977 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=accounts"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CardsApplication<cards>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bank.cards.CardsApplication",
+            "projectName": "cards",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54009 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=cards"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LoanApplication<loan>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bank.loan.LoanApplication",
+            "projectName": "loan",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53935 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=loan"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GetewayserverApplication<getewayserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bank.getewayserver.GetewayserverApplication",
+            "projectName": "getewayserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<configserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bank.configserver.ConfigServerApplication",
+            "projectName": "configserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayserverApplication<gatewayserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bank.gatewayserver.GatewayserverApplication",
+            "projectName": "gatewayserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

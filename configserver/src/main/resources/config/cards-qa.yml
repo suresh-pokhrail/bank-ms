@@ -1,0 +1,12 @@
+     
+build: 
+  version: '2.0'
+
+cards: 
+  message: "Welcome to Bank Cards related QA APIs Configserver"
+  contactDetails:
+    name: "Suresh Pokhrail - QA Leads"
+    email: "pokhrailsuresh5@gmail.com"
+  contact: 
+      -7505065026
+      -7555065027
